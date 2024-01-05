@@ -5,9 +5,7 @@ import PlutoTVScraper from './app/PlutoTVScraper';
 export default function App() {
   return (
     <View style={styles.container}>
-      <div>
         <PlutoTVScraper />
-      </div>
       <StatusBar style="auto" />
     </View>
   );
