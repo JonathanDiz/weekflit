@@ -1,15 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import PlutoTVScraper from './app/PlutoTVScraper';
+import { StatusBar } from 'expo-status-bar';
 import VideoPlayer from './app/VideoPlayer';
 
 export default function App() {
-  const videoSource = 'https://pluto.tv/ce84f691-66af-4c06-a402-ad37294b608f'
+  const videoSource = 'https://pluto.tv/ce84f691-66af-4c06-a402-ad37294b608f';
 
   return (
     <View style={styles.container}>
-        <PlutoTVScraper />
-        <VideoPlayer videoSource={videoSource} />
+      <VideoPlayer videoSource={videoSource} />
       <StatusBar style="auto" />
     </View>
   );
