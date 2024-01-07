@@ -19,6 +19,7 @@
     "expo-permissions": "~14.2.1",
     "expo-status-bar": "~1.6.0",
     "jsdom": "^23.1.0",
+    "puppeteer": "^21.7.0",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-cheerio": "^1.0.0-rc.4",

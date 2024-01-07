@@ -1,23 +1,29 @@
-const axios = require('axios');
+const puppeteer = require('puppeteer');
 
-// URL del anime en AnimeFLV
-const animeUrl = 'https://www3.animeflv.net/ver/one-piece-tv-1';
+async function scrapeAnimeFLV() {
+  const browser = await puppeteer.launch({ headless: 'new' });
+  const page = await browser.newPage();
 
-// Realiza la solicitud HTTP para obtener el contenido de la página
-axios.get(animeUrl)
-  .then((response) => {
-    const html = response.data;
+  try {
+    const animeUrl = 'https://www3.animeflv.net/ver/one-piece-tv-1';
+    await page.goto(animeUrl, { waitUntil: 'domcontentloaded' });
 
-    // Crear un objeto DOM virtual para usar querySelector
-    const { JSDOM } = require('jsdom');
-    const dom = new JSDOM(html);
-    const document = dom.window.document;
+    // Aumentar el tiempo de espera o usar waitForFunction
+    const videoSelector = 'video';
+    await page.waitForFunction(
+      (selector) => document.querySelector(selector),
+      { timeout: 50000 },
+      videoSelector
+    );
 
-    // Selecciona el título del anime (ajusta el selector según la estructura de la página)
-    const title = document.querySelector('h1.Title').textContent;
+    // Selecciona el título del anime
+    const title = await page.$eval('h1.Title', (element) => element.textContent);
 
-    // Selecciona el atributo src del elemento video con las clases jw-video y jw-reset
-    const videoUrl = document.querySelector('video').getAttribute('src');
+    // Ejecuta scripts en la página para obtener la URL del video
+    const videoUrl = await page.evaluate((selector) => {
+      const videoElement = document.querySelector(selector);
+      return videoElement ? videoElement.src : null;
+    }, videoSelector);
 
     if (!videoUrl) {
       console.error('No se pudo encontrar la URL del video.');
@@ -27,7 +33,11 @@ axios.get(animeUrl)
     // Imprime el título del anime y la URL del video
     console.log('Título del Anime:', title);
     console.log('URL del video:', videoUrl);
-  })
-  .catch((error) => {
-    console.error('Error fetching data:', error);
-  });
+  } catch (error) {
+    console.error('Error al extraer la información:', error);
+  } finally {
+    await browser.close();
+  }
+}
+
+scrapeAnimeFLV();
