@@ -1,0 +1,178 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Recuerdos malditos",
+      "Director": "Stephen King",
+      "videoUrl": "https://youtu.be/vVyhQ-e-D-w?si=aTFzfOlRxcqpUB_3"  
+    },
+    {
+      "id": 2,
+      "title": "Los chicos del maiz",
+      "Director": "Fritz Kiersch",
+      "videoUrl": "https://youtu.be/Ge5Z0T-uXZ0?si=NxZBVczFFs640-ix"
+    },
+    {
+      "id": 3,
+      "title": "Los 2 hijos de Francisco",
+      "Director": "Breno Silveira",
+      "videoUrl": "https://youtu.be/UCMe5yDGjDI?si=IEluah474hNX3d8j"
+    },
+    {
+      "id": 4,
+      "title": "Salsa (1988)",
+      "Director": "Boaz Davidson",
+      "videoUrl": "https://youtu.be/-mZBXdN0zyQ?si=jBi4T9LmcYoMk6rb"
+    },
+    {
+      "id": 5,
+      "title": "Hannibal Lecter: el origen del mal",
+      "Director": "Peter Webber",
+      "videoUrl": "https://youtu.be/_je3MiP4NnU?si=jemjhmfSfK-nPXz3"
+    },
+    {
+      "id": 6,
+      "title": "Einstein",
+      "Director": "Philip Martin",
+      "videoUrl": "https://youtu.be/t5fQXZEZQ_M?si=2L4wvq-AuijHQeqo"
+    },
+    {
+      "id": 7,
+      "title": "Diario de un Skin",
+      "Director": "Jacobo Rispa",
+      "videoUrl": "https://youtu.be/W9M-mCt37w0?si=Tzk7ZuIFzyxD9aTo"
+    },
+    {
+      "id": 8,
+      "title": "Cristobal Colon: El Descubrimiento",
+      "Director": "John Glen",
+      "videoUrl": "https://youtu.be/J_Pm-cZ-Zqc?si=1j3-mTe9BhADUj5R"
+    },
+    {
+      "id": 9,
+      "title": "El enigma de Jerusalén",
+      "Director": "Sebastian Niemann",
+      "videoUrl": "https://youtu.be/O2xf_UUJaoI?si=Uf4jNT_J8nbVyxg0"
+    },
+    {
+      "id": 10,
+      "title": "Fiesta americana",
+      "Director": "Alfonso Pineda Ulloa",
+      "videoUrl": "https://youtu.be/qoCwCdAzySo?si=iJGlZ9c85eXQGouN"
+    },
+    {
+      "id": 11,
+      "title": "Vamps",
+      "Director": "Amy Heckerling",
+      "videoUrl": "https://youtu.be/H5UxOo6vQF8?si=rjiYXBmMEs0CelVW"
+    },
+    {
+      "id": 12,
+      "title": "Espiritu adolescente",
+      "Director": "Gil Junger",
+      "videoUrl": "https://youtu.be/GnhGKzID_s4?si=RH0sVkL8mqQgWO3t"
+    },
+    {
+      "id": 13,
+      "title": "El libro de la Selva: La aventura continúa (1994)",
+      "Director": "Stephen Sommers",
+      "videoUrl": "https://youtu.be/r4BZn17OzSQ?si=UcGCtWZsDjKoo14p"
+    },
+    {
+      "id": 14,
+      "title": "El padre de la novia",
+      "Director": "Charles Shyer",
+      "videoUrl": "https://youtu.be/d0sRC6-i-PU?si=TfQpdJnit2FlRHis"
+    },
+    {
+      "id": 15,
+      "title": "El padre de la novia 2",
+      "Director": "Charles Shyer",
+      "videoUrl": "https://youtu.be/5SCwp2PJSzk?si=LtEV8Qd0ZSy700BU"
+    },
+    {
+      "id": 16,
+      "title": "El señor de las bestias",
+      "Director": "Don Coscarelli",
+      "videoUrl": "https://youtu.be/Zmb6OhToZd0?si=lw6lqvuyAU680EsS"
+    },
+    {
+      "id": 17,
+      "title": "La venganza de las damas de honor",
+      "Director": "James Hayman",
+      "videoUrl": "https://youtu.be/TrnWYS2B2NI?si=-4Abfzu2o5tTnMy2"
+    },
+    {
+      "id": 18,
+      "title": "Pajaros de fuego",
+      "Director": "David Green",
+      "videoUrl": "https://youtu.be/LMlnzKPRnNk?si=a7YVEz8m8nGFtv2Y"
+    },
+    {
+      "id": 19,
+      "title": "El viajero del tiempo",
+      "Director": "Luigi Moreno Barragán",
+      "videoUrl": "https://youtu.be/A-6eXt2fxf8?si=i5IaEfuW83X-ozkb"
+    },
+    {
+      "id": 20,
+      "title": "Martin Lutero",
+      "Director": "Eric Till",
+      "videoUrl": "https://youtu.be/0EQ6hSi6QcY?si=kCptLO6sPYSVj3V8"
+    },
+    {
+      "id": 21,
+      "title": "la maquina",
+      "Director": "François Dupeyron",
+      "videoUrl": "https://youtu.be/bB6YsP5G17k?si=TuJnIaOJw4w9lHSs"
+    },
+    {
+      "id": 22,
+      "title": "El novio de mi novia",
+      "Director": "Daryn Tufts",
+      "videoUrl": "https://youtu.be/u_K8NNte068?si=ZF0tx7bRSHDy7ajn"
+    },
+    {
+      "id": 23,
+      "title": "La historia de john lennon (in his life)",
+      "Director": "David Carson", 
+      "videoUrl": "https://youtu.be/P4KzUuaAIdQ?si=_x8rEfDLjj89ADbq"
+    },
+    {
+      "id": 24,
+      "title": "La historia de Ana Frank",
+      "Director": "Robert Dornhelm",
+      "videoUrl": "https://youtu.be/K9K4BpnWDTo?si=WBPURMgXqMYkUUGk"
+    },
+    {
+      "id": 25,
+      "title": "Sólo los niños van al cielo",
+      "Director": "François Ozon",
+      "videoUrl": "https://youtu.be/SfZr4Aqlt08?si=qpZk4rmwieq9_KCL"
+    },
+    {
+      "id": 26,
+      "title": "Tormenta de verano",
+      "Director": "Marco Kreuzpaintner",
+      "videoUrl": "https://youtu.be/Ue7IFsiMMOY?si=YGo5cEdUeb2QKYPi"
+    },
+    {
+      "id": 27,
+      "title": "Los hijos de la calle (Sleepers)",
+      "Director": "Barry Levinson",
+      "videoUrl": "https://youtu.be/0DGrjDStusU?si=CGnt9s9NxRJ1CEwr"
+    },
+    {
+      "id": 28,
+      "title": "Los archivos del pentágono",
+      "Director": "Steven Spielberg",
+      "videoUrl": "https://youtu.be/4xb2xYJXC18?si=lO1PV5wy_Fi6EhMi"
+    },
+    {
+      "id": 29,
+      "title": "LA INCREÍBLE HISTORIA DE SCHWARZENEGGER | BIGGER: SUEÑOS DE GRANDEZA",
+      "Director": "George Gallo",
+      "videoUrl": "https://youtu.be/8dPvQkN6XV4?si=nfaLydQs_-Fs3Ure"
+    }
+  ]
+}

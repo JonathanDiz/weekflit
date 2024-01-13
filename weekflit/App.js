@@ -1,10 +1,14 @@
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import VideoPlayer from './app/VideoPlayer';
 
 export default function App() {
+  const videoSource = 'https://pluto.tv/ce84f691-66af-4c06-a402-ad37294b608f';
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <VideoPlayer videoSource={videoSource} />
       <StatusBar style="auto" />
     </View>
   );
