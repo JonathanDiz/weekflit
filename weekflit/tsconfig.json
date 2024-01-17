@@ -9,6 +9,6 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx"
-  ],
+, "src/screens/HomeScreen.tsx", "src/components/MovieCard.tsx", "src/components/MovieCard.tsx"  ],
   "extends": "expo/tsconfig.base"
 }
