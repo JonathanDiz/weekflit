@@ -1,0 +1,4 @@
+{
+  "presets": ["babel-preset-expo", "@babel/preset-env", "@babel/preset-react", "@babel/preset-flow", "module:@babel/plugin-syntax-flow", "@babel/preset-typescript"],
+  "plugins": ["babel-plugin-transform-inline-environment-variables"]
+}
